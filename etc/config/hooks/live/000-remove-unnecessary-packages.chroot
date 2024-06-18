@@ -1,3 +1,3 @@
 #!/bin/sh
 
-apt-get autoremove --purge -f -q -y snapd gnome-console ubuntu-session
+apt-get autoremove --purge -f -q -y snapd ubuntu-session gnome-console gnome-music
