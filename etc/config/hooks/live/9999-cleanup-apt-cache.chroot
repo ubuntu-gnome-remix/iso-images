@@ -2,4 +2,6 @@
 # Description: Cleanup apt cache files that add ~100MB to the .iso and aren't needed
 # + clean apt lists
 
+apt autoclean -y
+apt clean -y
 rm -rf /var/cache/apt/* /var/lib/apt/lists/*
